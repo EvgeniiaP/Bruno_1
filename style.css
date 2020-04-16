@@ -1,0 +1,30 @@
+body{
+    margin: 0 auto;
+    font-size: 25px;
+  }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+   .wrap{
+    margin: 0 auto;
+    width: 80%;
+    max-width: 1200px;
+    background-color: #cee2ff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    }
+    .koord, .koord2, .div-answer{
+       flex: 1;
+       margin-top: 1em;
+          }
+  .input-age::placeholder{
+    color: #9a9a9a;
+  }
+  .div-answer{
+    font-size: 1.5em;
+    color:blue;
+    height: 3em;
+    padding-bottom: 1em;
+  }
